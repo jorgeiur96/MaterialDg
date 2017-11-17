@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Datos  de  prersona </string>
+    <string name="nombreCompleto">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="Email">Email</string>
+    <string name="descripcion">Descripcion Contacto</string>
+    <string name="textoFechaS">Set Date</string>
+    <string name="textoFechaEncabesado">Fecha Nacimiento</string>
+    <string name="botonSiguinete">Siguiente</string>
+    <string name="botonCancelar">Cancelar</string>
+    <string name="botonConfimarFecha">OK</string>
+    <string name="TextoConfirmarDatos">Confirmar Datos</string>
+    <string name="textoNombrePrueba">Jorge  Ivan  Urueta</string>
+    <string name="fechaNaciomeito">Fecha Nacimiento </string>
+    <string name="fec">06/02/1996</string>
+    <string name="telefonoprueba">Tel : </string>
+    <string name="telpr">77799988</string>
+    <string name="emailprue">Email :</string>
+    <string name="em">jorgeivan@gmail.com </string>
+    <string name="descripcionprue">descripcion : </string>
+    <string name="pruetext">conoci a  jorge  en  un restaurante italiano</string>
+    <string name="textobotoneditardatos">Editar Datos</string>
+
+</resources>

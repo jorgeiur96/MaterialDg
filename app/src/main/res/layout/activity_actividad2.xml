@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unamjorge.practicas.atividadesarrollodeunaactividad.Actividad2">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_marginLeft="@dimen/left"
+     android:layout_marginTop="@dimen/top"
+     android:layout_marginRight="@dimen/right"
+     android:orientation="vertical">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:textSize="@dimen/texsize"
+         android:text="@string/TextoConfirmarDatos"
+         android:layout_marginBottom="@dimen/left"
+         android:textStyle="bold" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+
+         <TextView
+             android:id="@+id/txtNombre"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/textoNombrePrueba"
+             android:textSize="@dimen/texzise" />
+
+
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_marginTop="@dimen/top"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/fechaNaciomeito"
+             android:textSize="@dimen/texzise"
+             />
+
+         <TextView
+             android:id="@+id/txtFecha"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:layout_marginLeft="@dimen/left"
+             android:text="@string/fec"
+             android:textSize="@dimen/texzise" />
+
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_marginTop="@dimen/top"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/telefonoprueba"
+             android:textSize="@dimen/texzise"
+             />
+
+         <TextView
+             android:id="@+id/txttelefono"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:layout_marginLeft="@dimen/left"
+             android:text="@string/telpr"
+             android:textSize="@dimen/texzise" />
+
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_marginTop="@dimen/top"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/Email"
+             android:textSize="@dimen/texzise"
+             />
+
+         <TextView
+             android:id="@+id/txtemail"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:layout_marginLeft="@dimen/left"
+             android:text="@string/em"
+             android:textSize="@dimen/texzise" />
+
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_marginTop="@dimen/top"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/descripcionprue"
+             android:textSize="@dimen/texzise"
+             />
+
+         <TextView
+             android:id="@+id/txtdescripcion"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:layout_marginLeft="@dimen/left"
+             android:text="@string/pruetext"
+             android:textSize="@dimen/texzise" />
+
+
+     </LinearLayout>
+     <Button
+
+         android:layout_marginTop="@dimen/top"
+         android:layout_gravity="center_horizontal"
+         android:id="@+id/btnEditar"
+         android:layout_width="200dp"
+         android:onClick="editar"
+         android:layout_height="wrap_content"
+         android:text="@string/botonSiguinete"
+         android:theme="@style/MibotonRaised" />
+
+
+
+
+ </LinearLayout>
+</RelativeLayout>

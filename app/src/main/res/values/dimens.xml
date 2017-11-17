@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">10dp</dimen>
+    <dimen name="lefttexto1">20dp</dimen>
+    <dimen name="lefttexto">30dp</dimen>
+    <dimen name="top">10dp</dimen>
+    <dimen name="right">10dp</dimen>
+    <dimen name="height">180dp</dimen>
+    <dimen name="texzise">20dp</dimen>
+    <dimen name="texsize">32dp</dimen>
+    <dimen name="width">130dp</dimen>
+</resources>
